@@ -1,0 +1,85 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.one{
+    background-color: lightgreen;
+    display: block;
+    height: 150px;
+    margin:10px;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-around;
+    
+    
+}
+.two{
+    background-color: aqua;
+    display: flex;
+    height: 300px;
+    margin: 5px;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    padding: 5px;
+    justify-content: space-around;
+
+    
+}
+.contain
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.five
+{
+    background-color:burlywood;
+    display: flex;
+    height: 150px;
+    margin: 5px;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+@media screen and (max-width:600px) {
+    .one{
+        flex-basis: 100%;
+        
+    }
+    .two{
+        flex-basis: 100%;
+
+    }
+    .five{
+        flex-basis: 40%;
+
+    }
+}
+@media screen and (max-width:400px) {
+    .one{
+        flex-basis: 100%;
+        
+    }
+    .two{
+        flex-basis: 100%;
+
+    }
+    .five{
+        flex-basis:100%;
+
+    }
+}
+</style>
+<div class="contain">
+<div class="one"></div>
+<div class="two"></div>
+<div  class="two"></div>
+<div class="two"></div>
+<div class="five"></div>
+<div class="five"></div>
+<div class="five"></div>
+<div class="five"></div>
+
+</div>

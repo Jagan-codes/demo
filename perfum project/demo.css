@@ -1,0 +1,15 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.contain.one{
+    background-color: lightgreen;
+    display:flex;
+    height: 40px;
+    margin:5px;
+    flex: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 50px;
+}
